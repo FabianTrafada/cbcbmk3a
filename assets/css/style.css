@@ -1,0 +1,105 @@
+body {
+    background-color: #f7fafc;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .company-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2d3748;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+  }
+
+  nav a {
+    color: #4a5568;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+
+  nav a:hover {
+    color: #1a202c;
+  }
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 25px;
+  }
+
+  #home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  #home h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2d3748;
+    margin: 0;
+  }
+
+  #home p {
+    color: #718096;
+    margin-top: 16px;
+  }
+
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-section img {
+    width: 50%;
+    border-radius: 50%;
+  }
+
+  footer {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 16px 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  footer p {
+    color: #4a5568;
+    margin: 0;
+  }
